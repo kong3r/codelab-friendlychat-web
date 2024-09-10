@@ -3,7 +3,7 @@ import { Component, inject } from '@angular/core';
 import { DocumentData } from '@angular/fire/firestore';
 import { FormsModule } from '@angular/forms';
 import { Observable } from 'rxjs';
-import { ChatService } from 'src/app/services/chat.service';
+import { ChatService } from 'src/app/components/header/header.component';
 
 @Component({
   selector: 'app-chat-page',

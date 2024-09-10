@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { ChatService } from 'src/app/services/chat.service';
+import { ChatService } from 'src/app/components/header/header.component';
 
 @Component({
   selector: 'app-login-page',
